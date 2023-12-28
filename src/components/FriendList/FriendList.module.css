@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: #2d2a35;
+  color: white;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  margin-left: 25px;
+}
+.li {
+  display: flex;
+  margin-left: 10px;
+  background-color: bisque;
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 25%;
+  align-items: center;
+  background-color: rgb(140, 140, 165);
+}
+
+.rot {
+  background-color: red;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+}
+.green {
+  background-color: green;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.div {
+  width: 10px; /* поддерживаются любые единицы, в том числе проценты */
+  margin: 1em auto;
+  background: silver;
+  border-radius: 50%;
+}
